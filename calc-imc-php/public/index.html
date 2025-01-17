@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <header>
+        <h1>Vamos calcular seu IMC?</h1>
+        <p>Vamos calcular seu Índice de Massa Corporal e descpbrir se você está saudável</p>
+    </header>
+    <main>
+        <section>
+            <form action="calc.php" method="post">
+                <label for="pesokg">Insira seu peso:</label>
+                <input type="number" step="0.01" name="pesokg" id="pesokg">
+                <label for="altura">Insira sua altura:</label>
+                <input type="number" step="0.01" name="altura" id="altura">
+                <input type="submit" value="Calcular">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
