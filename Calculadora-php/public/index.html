@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <main>
+        <section>
+            <form action="calc.php" method="post">
+                <label for="num_um">Digite o primeiro número</label>
+                <input type="number" name="num_um" id="num_um">
+                <select name="operacao" id="operacao">
+                    <option value="selecione">Selecione</option>
+                    <option value="adicao">+</option>
+                    <option value="subtracao">-</option>
+                    <option value="multiplicacao">x</option>
+                    <option value="divisao">÷</option>
+                </select>
+                <label for="num_dois">Digite o segundo número</label>
+                <input type="number" name="num_dois" id="num_dois">
+                <input type="submit" value="Calcular">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
