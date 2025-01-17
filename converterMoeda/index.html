@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moeda</title>
+</head>
+<body>
+    <main>
+        <section>
+            <form action="convert.php" method="post">
+
+                <label for="valor">Insira o valor:</label>
+                <input type="number" step="0.01" name="valor" id="valor">
+
+                <label for="taxa">Insira o valor da taxa de câmbio:</label>
+                <input type="number" step="0.01" name="taxa" id="taxa">
+
+                <input type="submit" value="Calcular">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
